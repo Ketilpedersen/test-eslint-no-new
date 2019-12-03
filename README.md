@@ -1,0 +1,1 @@
+Testing the no-new eslint with Modules.
