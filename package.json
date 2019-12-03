@@ -1,0 +1,32 @@
+{
+  "name": "test-eslint-no-new",
+  "version": "1.0.0",
+  "description": "Testing the no-new eslint with Modules.",
+  "main": "module-constructor.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ketilpedersen/test-eslint-no-new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ketilpedersen/test-eslint-no-new/issues"
+  },
+  "homepage": "https://github.com/Ketilpedersen/test-eslint-no-new#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/standalone": "^7.6.4",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.27.8",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
